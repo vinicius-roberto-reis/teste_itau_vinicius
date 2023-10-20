@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-19T21:29:13.240Z",
+        "line": 4,
+        "name": "Cliente com todos os critérios de elegibilidade",
+        "description": "",
+        "id": "verificar-a-elegibilidade-do-cliente;cliente-com-todos-os-critérios-de-elegibilidade",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "que o indicador cliente correntista é \"S\"",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "o indicador conta ativa é \"S\"",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "o código tipo produto oferta está entre (\"AB\", \"CB\", \"DC\")",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "o código tipo produto oferta não está entre (\"CC\", \"CD\", \"AC\")",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "o código produto origem está entre (1234, 5678, 7722, 5564, 2286, 5561)",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "o código produto origem não está entre (5555, 7777, 8888, 9999, 1010)",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "verificamos a elegibilidade do cliente",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "o indicador de elegibilidade do cliente deve ser \"Elegível\"",
+            "match": {},
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Verificar a elegibilidade do cliente",
+    "description": "",
+    "id": "verificar-a-elegibilidade-do-cliente",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/elegibilidade_cliente.feature",
+    "tags": []
+  }
+]

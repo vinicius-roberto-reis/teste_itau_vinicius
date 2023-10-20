@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.RunnerTest" time="1.04" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau\target\test-classes;C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau\target\classes;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Vinicius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vinicius\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vinicius\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vinicius\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Vinicius\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Vinicius\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Vinicius\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Vinicius\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Vinicius\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Vinicius\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vinicius\AppData\Local\Temp\surefire14588934825767049902\surefirebooter-20231019182911839_3.jar C:\Users\Vinicius\AppData\Local\Temp\surefire14588934825767049902 2023-10-19T18-29-11_492-jvmRun1 surefire-20231019182911839_1tmp surefire_0-20231019182911839_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau\target\test-classes;C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau\target\classes;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\Vinicius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Vinicius\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vinicius\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vinicius\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vinicius\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vinicius\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Vinicius\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Vinicius\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Vinicius\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Vinicius\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Vinicius\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Vinicius\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Vinicius\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Vinicius\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vinicius"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vinicius\AppData\Local\Temp\surefire14588934825767049902\surefirebooter-20231019182911839_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="user.name" value="Vinicius"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Vinicius\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vinicius\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.dir" value="C:\Users\Vinicius\Desktop\teste_tecnico\projeto-teste-tecnico-itau"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Java\jdk-11\bin;C:\apache-maven-3.9.5\bin;C:\Ruby32-x64\bin;C:\Users\Vinicius\AppData\Local\Microsoft\WindowsApps;;C:\Users\Vinicius\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Cliente com todos os critérios de elegibilidade" classname="Verificar a elegibilidade do cliente" time="0.219">
+    <error message="The step &quot;que o indicador cliente correntista é &quot;S&quot;&quot; is undefined. You can implement it using the snippet(s) below:&#10;&#10;@Dado(&quot;que o indicador cliente correntista é {string}&quot;)&#10;public void que_o_indicador_cliente_correntista_é(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;&#10;&#10;Some other steps were also undefined:&#10;&#10;@Dado(&quot;o indicador conta ativa é {string}&quot;)&#10;public void o_indicador_conta_ativa_é(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Dado(&quot;o código tipo produto oferta está entre \\({string}, {string}, {string})&quot;)&#10;public void o_código_tipo_produto_oferta_está_entre(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Dado(&quot;o código tipo produto oferta não está entre \\({string}, {string}, {string})&quot;)&#10;public void o_código_tipo_produto_oferta_não_está_entre(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Dado(&quot;o código produto origem está entre \\({int}, {int}, {int}, {int}, {int}, {int})&quot;)&#10;public void o_código_produto_origem_está_entre(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5, Integer int6) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Dado(&quot;o código produto origem não está entre \\({int}, {int}, {int}, {int}, {int})&quot;)&#10;public void o_código_produto_origem_não_está_entre(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Quando(&quot;verificamos a elegibilidade do cliente&quot;)&#10;public void verificamos_a_elegibilidade_do_cliente() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Então(&quot;o indicador de elegibilidade do cliente deve ser {string}&quot;)&#10;public void o_indicador_de_elegibilidade_do_cliente_deve_ser(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step "que o indicador cliente correntista é "S"" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("que o indicador cliente correntista é {string}")
+public void que_o_indicador_cliente_correntista_é(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Dado("o indicador conta ativa é {string}")
+public void o_indicador_conta_ativa_é(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("o código tipo produto oferta está entre \\({string}, {string}, {string})")
+public void o_código_tipo_produto_oferta_está_entre(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("o código tipo produto oferta não está entre \\({string}, {string}, {string})")
+public void o_código_tipo_produto_oferta_não_está_entre(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("o código produto origem está entre \\({int}, {int}, {int}, {int}, {int}, {int})")
+public void o_código_produto_origem_está_entre(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5, Integer int6) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Dado("o código produto origem não está entre \\({int}, {int}, {int}, {int}, {int})")
+public void o_código_produto_origem_não_está_entre(Integer int1, Integer int2, Integer int3, Integer int4, Integer int5) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("verificamos a elegibilidade do cliente")
+public void verificamos_a_elegibilidade_do_cliente() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Então("o indicador de elegibilidade do cliente deve ser {string}")
+public void o_indicador_de_elegibilidade_do_cliente_deve_ser(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+CenÃ¡rio: Cliente com todos os critÃ©rios de elegibilidade                    &amp#27;[90m# src/test/resources/features/elegibilidade_cliente.feature:4&amp#27;[0m
+  &amp#27;[33mDado &amp#27;[0m&amp#27;[33mque o indicador cliente correntista Ã© "S"&amp#27;[0m                            &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo indicador conta ativa Ã© "S"&amp#27;[0m                                           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo cÃ³digo tipo produto oferta estÃ¡ entre ("AB", "CB", "DC")&amp#27;[0m              &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo cÃ³digo tipo produto oferta nÃ£o estÃ¡ entre ("CC", "CD", "AC")&amp#27;[0m          &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo cÃ³digo produto origem estÃ¡ entre (1234, 5678, 7722, 5564, 2286, 5561)&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mE &amp#27;[0m&amp#27;[36mo cÃ³digo produto origem nÃ£o estÃ¡ entre (5555, 7777, 8888, 9999, 1010)&amp#27;[0m   &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mQuando &amp#27;[0m&amp#27;[36mverificamos a elegibilidade do cliente&amp#27;[0m                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mEntÃ£o &amp#27;[0m&amp#27;[36mo indicador de elegibilidade do cliente deve ser "ElegÃ­vel"&amp#27;[0m         &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
