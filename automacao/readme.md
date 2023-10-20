@@ -25,8 +25,6 @@ cd elegibilidade-do-cliente-testes
 3. Execute os testes Cucumber com o seguinte comando:
 mvn test
 
-
-
 🧪 Estrutura de Cenários
 O projeto inclui cenários de teste que verificam a elegibilidade do cliente com base nas regras fornecidas. Os cenários incluem combinações de:
 
