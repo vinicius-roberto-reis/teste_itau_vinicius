@@ -17,7 +17,7 @@ Antes de executar os testes, você precisará ter instalado:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/elegibilidade-do-cliente-testes.git
+   git clone https://github.com/vinicius-roberto-reis/teste_itau_vinicius.git
 
 2. Navegue até a pasta do projeto:
 cd elegibilidade-do-cliente-testes
