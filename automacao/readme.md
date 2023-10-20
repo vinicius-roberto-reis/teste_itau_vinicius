@@ -36,8 +36,6 @@ Código Tipo Produto Oferta
 Código Produto Origem
 Os resultados esperados são indicados pelos emojis 🟢 (Elegível) e 🔴 (Não Elegível).
 
-Os resultados esperados são indicados pelos emojis 🟢 (Elegível) e 🔴 (Não Elegível).
-
 📂 Estrutura de Diretórios
 A estrutura de diretórios do projeto é organizada da seguinte forma:
 
