@@ -4,7 +4,16 @@
 Dado que um cliente deseja verificar sua elegibilidade com base em regras específicas.
 
 ## Escopo
-O teste abrangerá a verificação da elegibilidade do cliente com base nas seguintes regras.
+O teste abrangerá a verificação da elegibilidade do cliente com base nas seguintes regras:
+Se todas as condições forem verdadeiras:
+ - indicador cliente correntista = “S”
+ - indicador conta ativa = “S”
+ - código tipo produto oferta está entre (“AB”, “CB”, “DC”)
+ - código tipo produto oferta produto oferta não está entre (“CC”, “CD”, “AC”)
+ - codigo produto origem está entre (1234, 5678, 7722, 5564, 2286, 5561)
+ - codigo produto origem não está entre (5555, 7777, 8888, 9999, 1010)
+Então
+ - atribuir ao indicador_elegibilidade_cliente = “S”
 
 ## Levantamento dos Cenários
 ### Funcionalidade: Verificação de Elegibilidade do Cliente
