@@ -82,13 +82,25 @@ Então
 - Quando verifico a elegibilidade do cliente
 - Então o indicador de elegibilidade deve ser "N"
 
-#### Cenário: Cliente com múltiplos contratos, pelo menos um elegível
+#### Cenário: Cliente com 2 contratos, pelo menos um elegível
 - Dado que um cliente possui um ou mais contratos
 - E pelo menos um contrato atende a todas as condições de elegibilidade
 - Quando verifico a elegibilidade do cliente
 - Então o indicador de elegibilidade deve ser "S"
 
-#### Cenário: Cliente com múltiplos contratos, todos não elegíveis
+#### Cenário: Cliente com 2 contratos, todos não elegíveis
+- Dado que um cliente possui um ou mais contratos
+- E nenhum contrato atende a todas as condições de elegibilidade
+- Quando verifico a elegibilidade do cliente
+- Então o indicador de elegibilidade deve ser "N"
+
+#### Cenário: Cliente com 3 contratos, pelo menos um elegível
+- Dado que um cliente possui um ou mais contratos
+- E pelo menos um contrato atende a todas as condições de elegibilidade
+- Quando verifico a elegibilidade do cliente
+- Então o indicador de elegibilidade deve ser "S"
+
+#### Cenário: Cliente com 3 contratos, todos não elegíveis
 - Dado que um cliente possui um ou mais contratos
 - E nenhum contrato atende a todas as condições de elegibilidade
 - Quando verifico a elegibilidade do cliente
@@ -96,6 +108,9 @@ Então
 
 ## Estratégia de Testes
 Os testes serão automatizados usando: Java (11+), Maven, Junit, Cucumber em conjunto com o Rest Assured para verificar a elegibilidade do cliente. Os cenários de teste serão criados com base nas regras especificadas.
+
+## Pré Requito
+Possuir massa de dados de clientes com contratos que abrangem todas as variações do plano de testes.
 
 ## Critérios de Aceitação
 - Os testes devem ser bem-sucedidos para os cenários de clientes elegíveis e não elegíveis.
