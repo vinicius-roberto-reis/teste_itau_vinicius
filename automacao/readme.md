@@ -27,10 +27,12 @@ mvn test
 🧪 Estrutura de Cenários
 O projeto inclui cenários de teste que verificam a elegibilidade do cliente com base nas regras fornecidas. Os cenários incluem combinações de:
 
+```bash
 Indicador Cliente Correntista
 Indicador Conta Ativa
 Código Tipo Produto Oferta
 Código Produto Origem
+```
 
 📂 Estrutura de Diretórios
 A estrutura de diretórios do projeto é organizada da seguinte forma:
