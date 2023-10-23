@@ -22,7 +22,7 @@
 
 - **Utilizar DoR (Definition of Ready)**: O que é necessário fazer ou ter antes de começar a trabalhar na story.
 
-- **Utilizar DoD (Definition of Done)**: DoD (Definition of Done).
+- **Utilizar DoD (Definition of Done)**: O que é necessário fazer para considerar entregue.
 
 - **Utilizar Critérios de Aceitação**: Adicionar critérios de aceitação melhora o entendimento da equipe de desenvolvimento e facilita a criação dos planos de teste.
 
