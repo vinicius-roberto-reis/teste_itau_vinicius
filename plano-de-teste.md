@@ -109,7 +109,7 @@ Então
 ## Estratégia de Testes
 Os testes serão automatizados usando: Java (11+), Maven, Junit, Cucumber em conjunto com o Rest Assured para verificar a elegibilidade do cliente. Os cenários de teste serão criados com base nas regras especificadas.
 
-## Pré Requito
+## Pré-Requito
 Possuir massa de dados de clientes com contratos que abrangem todas as variações do plano de testes.
 
 ## Critérios de Aceitação
