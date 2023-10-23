@@ -28,4 +28,4 @@
 
 - **Adicionar o Motivo ou Porquê**: Essa informação, além de ajudar a equipe a entender melhor, dá maior importância à story.
 
-- **Sugerir que a story passe primeiramente pelo refinamento de negócio e posteriormente o refinamento técnico**: Dessa forma, a story após a fase de refinamento de Negócio estará mais clara e objetiva, evitando a falta de entendimento dos DEVs e QAs no processo de Refinamento Técnico, ocasionando a demora no ciclo de vida do card (Esteira do kanban), aumento de fails e falta de objetividade nos cenários de teste e execução do teste.
+- **Sugerir que a story passe primeiramente pelo refinamento de negócio e posteriormente o refinamento técnico**: Dessa forma, a story após a fase de refinamento de Negócio estará mais clara e objetiva, evitando a falta de entendimento dos DEVs e QAs no processo de refinamento técnico, pois se não estiver claro pode ocasionar a demora no ciclo de vida do card (esteira do kanban), aumento de fails e falta de objetividade nos cenários de teste e execução do teste.
