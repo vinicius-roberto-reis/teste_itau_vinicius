@@ -3,86 +3,42 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-10-19T21:29:13.240Z",
-        "line": 4,
-        "name": "Cliente com todos os critérios de elegibilidade",
-        "description": "",
-        "id": "verificar-a-elegibilidade-do-cliente;cliente-com-todos-os-critérios-de-elegibilidade",
+        "start_timestamp": "2023-10-23T01:30:54.483Z",
+        "line": 12,
+        "name": "Verificação de elegibilidade do cliente",
+        "description": "    Given que tenho um cliente com o seguinte contrato\n      | indicadorContaAtiva | indicadorClienteCorrentista  | codigoTipoProdutoOferta | codigoProdutoOrigem |\n      | \u003cContaAtiva\u003e        | \u003cClienteCorrentista\u003e         | \u003cTipoProdutoOferta\u003e     | \u003cProdutoOrigem\u003e     |",
+        "id": "verificar-a-elegibilidade-do-cliente;verificação-de-elegibilidade-do-cliente;;2",
         "type": "scenario",
-        "keyword": "Cenário",
+        "keyword": "Esquema do Cenário",
         "steps": [
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "que o indicador cliente correntista é \"S\"",
-            "match": {},
-            "keyword": "Dado "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "o indicador conta ativa é \"S\"",
-            "match": {},
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "status": "skipped"
+              "duration": 2966000,
+              "status": "passed"
             },
             "line": 7,
-            "name": "o código tipo produto oferta está entre (\"AB\", \"CB\", \"DC\")",
-            "match": {},
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "status": "skipped"
+            "name": "realizo uma requisição POST para verificar a elegibilidade do cliente",
+            "match": {
+              "location": "steps.ElegibilidadeClienteSteps.realizo_uma_requisicao_POST_para_verificar_a_elegibilidade_do_cliente()"
             },
-            "line": 8,
-            "name": "o código tipo produto oferta não está entre (\"CC\", \"CD\", \"AC\")",
-            "match": {},
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 999400,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "o código produto origem está entre (1234, 5678, 7722, 5564, 2286, 5561)",
-            "match": {},
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "o código produto origem não está entre (5555, 7777, 8888, 9999, 1010)",
-            "match": {},
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "verificamos a elegibilidade do cliente",
-            "match": {},
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 972400,
+              "status": "passed"
             },
-            "line": 12,
-            "name": "o indicador de elegibilidade do cliente deve ser \"Elegível\"",
-            "match": {},
+            "line": 8,
+            "name": "a resposta deve conter o indicador de elegibilidade \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"S\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.ElegibilidadeClienteSteps.a_resposta_deve_conter_o_indicador_de_elegibilidade(java.lang.String)"
+            },
             "keyword": "Então "
           }
         ]

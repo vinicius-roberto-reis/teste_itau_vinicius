@@ -4,8 +4,6 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Quando;
 import io.cucumber.java.pt.Então;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -20,7 +18,7 @@ public class ElegibilidadeClienteSteps {
     private String codigoProdutoOrigem;
     
 
-    @Dado("que tenho um cliente com o seguinte contrato:")
+    @Dado("que tenho um cliente com o seguinte contrato")
     public void que_tenho_um_cliente_com_o_seguinte_contrato(DataTable dataTable) {
         List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
         Map<String, String> contrato = data.get(0);
@@ -42,18 +40,15 @@ public class ElegibilidadeClienteSteps {
     }
 
     @Então("a resposta deve conter o indicador de elegibilidade {string}")
-    public void a_resposta_deve_conter_o_indicador_de_elegibilidade(String indicadorElegibilidadeEsperado) {
-        if (indicadorElegibilidadeEsperado.equals("S") && clienteElegivel == true) {
-            fail("O indicador de elegibilidade não corresponde ao esperado.");
-        } else if (indicadorElegibilidadeEsperado.equals("N") && clienteElegivel == true) {
-             fail("O indicador de elegibilidade não corresponde ao esperado.");
-        } else if (indicadorElegibilidadeEsperado.equals("N") && clienteElegivel == false) {
-              assertTrue("A condição é verdadeira", clienteElegivel);
-        }else if (indicadorElegibilidadeEsperado.equals("S") && clienteElegivel == true) {
-              assertTrue("A condição é verdadeira", clienteElegivel);
-        } else {
+    public void resposta_deve_conter_o_indicador_de_elegibilidade(String indicadorElegibilidadeEsperado) {
+        if (!(indicadorElegibilidadeEsperado.equals("S") || indicadorElegibilidadeEsperado.equals("N"))) {
             fail("A string da step deve ser 'S' ou 'N'.");
         }
+        if ((indicadorElegibilidadeEsperado.equals("S") && clienteElegivel) || 
+            (indicadorElegibilidadeEsperado.equals("N") && !clienteElegivel)) {
+            assertTrue("A condição é verdadeira", clienteElegivel);
+        } else {
+            fail("O indicador de elegibilidade não corresponde ao esperado.");
+        }
     }
-    
 }

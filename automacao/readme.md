@@ -6,11 +6,10 @@ Um projeto de teste para verificar a elegibilidade do cliente com cenários vari
 
 Antes de executar os testes, você precisará ter instalado:
 
-- Java 8+
+- Java 11
 - Maven
 - Cucumber
 - RestAssured
-- Sua API de Elegibilidade do Cliente
 
 ## 🚀 Como Executar
 
