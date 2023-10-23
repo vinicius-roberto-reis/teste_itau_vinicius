@@ -34,8 +34,9 @@ Código Produto Origem
 
 📂 Estrutura de Diretórios
 A estrutura de diretórios do projeto é organizada da seguinte forma:
-
+```bash
 src/test/resources/features: Arquivos .feature que definem os cenários de teste.
 src/test/java/steps: Classes de steps definidas em Java.
 src/test/java/ElegibilidadeClienteApi.java: Classe que faz a requisição à API.
 pom.xml: Arquivo de configuração do Maven.
+```
